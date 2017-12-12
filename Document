@@ -36,3 +36,47 @@ Alla företag som har vilken som helst lagring av uppgifter eller liknande komme
 Vartifrån data kan komma innan det hamnar i en DB?
 -Troligtvis så kan det komma från ett program som är kopplat till databasen. Kanske ett program där man lägger till personuppgifter.
 
+Hur vi kan lita på integriteten från en databas?
+-Främst gäller det väl att personen som är ansvarig för databasen vet han hen sysslar med. Sedan så får man troligtvis se till att personerna som jobbar med databsen
+lägger in de constraints som chefen sagt på korrekt sätt. 
+
+Exempel?
+-Vi har tidigare gått igenom bilar. Så ett exempel på en constraint kan vara att två olika bilar ska inte kunna ha samma reg-nummer. Så då får man lägga
+in en constraint som gör att varje bils unika ID får inte ha samma reg-skylt som en annan bil med unikt ID.
+
+Hur skulle jag implementera det jag lärt mig i ett webbsystem för hotell.
+-Svårt att säga då jag inte vet vad dagens hotell har för webblösningar.
+-Men jag skulle väl utgå ifrån samma princip att hotellet för en del där flera personer kan bo. Hotellet har flera olika rum. I varje rum kan även flera
+personer bo.
+Så man hade väl kunnat göra någon tabell för personer och rum. Sedan skulle man säkerligen kunnat göra en tabell för nycklar. Vet ej hur ISBN
+fungerar när man gör kopior på nycklar. Men det hade vart bra att ge nycklar ett unikt ID för unika rum så att gästerna inte kan komma in i andra rum
+än det de har bokat.
+
+Ifall jag har saknat något ämne under kursen gång?
+-Jag tycker för att vara en väldigt grundläggande kurs inom databashantering så har vi täckt det som vi behöver kunna, for now.
+-Med det som vi har lärt oss så kan vi egentligen göra det vi behöver för vårt projekt över julen.
+-Det jag har saknat är kanske lite mer om script. Men detta ingår dock kanske inte i en grundkurs inom databaser.
+
+Saker jag har lärt mig?
+1. Skapa en databas
+2. Skapa tabeller och kolumner med värden.
+3. Joina tabeller så att man kan utgå från en mer strukturerad databas.
+4. Skapa begränsningar som minskar risken för att något dumt skulle hända.
+5. Hämta ut data från databsen med hjälp av PHP.
+
+En kort beskrivning av något ämne/tema?
+-Det ämne/tema som jag tyckte var användbart, för ens egna skull i början, är constraints. Jag tycker det är väldigt viktigt att veta vad för begränsningar
+man ska arbeta med för att se till så att så lite som möjligt kan gå fel. Speciellt om man ska jobba med väldigt stora databaser men mycket information.
+Det hade varit dumt ifall flera bilar åkte runt med samma reg-skylt exempelvis.
+
+Sammanfattning
+-Jag tycker kursen har varit givande och intressant när vi startade. Nytt och nödvändigt.
+-Tycker övningarna har varit väldigt bra! har då tyvärr inte sett filmer.
+-Tycker lärarna har varit en viktig del i att hålla intresset och humorn uppe för kursen. Vissa delar kräver kanske lite mer humor för att man ska orka hänga med.
+-Jag visste inte mycket om databaser innan så jag hade inga direkta förväntningar.
+-Vet inte vad jag kommer jobba med i framtiden, men att känna till grunderna i databashantering känns otroligt viktigt. Så att mitt intryck av kursen nu
+i efterhand är självklart positiv. Detta kommer man ha med sig framöver för alltid.
+-Min egna insats vet jag inte riktigt. 
+-Om det skulle vara något man kunde ändra så skulle det vara att försöka hålla kvar det interaktiva genom föreläsningen. Även att börja 
+gå igenom lite "repetion" av det man lärt sig och visa hur man implementerar det i ett eget arbete.
+-De ändringar jag hade reommenderat till YRGO är desamma som vad jag hade rekommenderat till lärarna.
